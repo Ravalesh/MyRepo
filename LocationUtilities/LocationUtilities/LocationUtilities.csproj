@@ -51,7 +51,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddAddressActivity.cs" />
+    <Compile Include="AddCoordinatesActivity.cs" />
+    <Compile Include="Configurations.cs" />
+    <Compile Include="BroadCastHandler.cs" />
+    <Compile Include="GpsService.cs" />
+    <Compile Include="IUpdateUi.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="NearbyCasinosActivity.cs" />
+    <Compile Include="NotificationObject.cs" />
+    <Compile Include="Preferences.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +68,15 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\AddCoordinates.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddAddresses.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\NearbyCasinos.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">

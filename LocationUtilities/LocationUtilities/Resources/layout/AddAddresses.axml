@@ -3,19 +3,26 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:text="Add New Address"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAddAddress" />
-    <Button
-        android:text="Add New Coodinates"
+        android:id="@+id/tvAddress"
+        android:text="Address"
+        android:gravity="center" />
+    <EditText
+        android:inputType="textMultiLine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnAddCoordinates" />
+        android:id="@+id/etCasinoName"
+        android:hint="Casino" />
     <Button
-        android:text="Show nearby casinos"
+        android:text="Current Address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnNearbyCasinos" />
+        android:id="@+id/btnCurrentAddress" />
+    <Button
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave" />
 </LinearLayout>
